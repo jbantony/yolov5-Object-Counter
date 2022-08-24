@@ -1,27 +1,17 @@
 <div align="center">
 <p>
+<!--
    <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
-   <img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/splash.jpg"></a>
+   < img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/splash.jpg"></a>
+   -->
 </p>
 
-English | [简体中文](.github/README_cn.md)
-<br>
-<div>
-   <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="CI CPU testing"></a>
-   <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv5 Citation"></a>
-   <a href="https://hub.docker.com/r/ultralytics/yolov5"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
-   <br>
-   <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-   <a href="https://www.kaggle.com/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
-   <a href="https://join.slack.com/t/ultralytics/shared_invite/zt-w29ei8bp-jczz7QYUmDtgo6r6KcMIAg"><img src="https://img.shields.io/badge/Slack-Join_Forum-blue.svg?logo=slack" alt="Join Forum"></a>
-</div>
 
-<br>
 <p>
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
 </p>
-
+<!--
 <div align="center">
   <a href="https://github.com/ultralytics" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/raw/master/social/logo-social-github.png" width="2%" alt="" /></a>
@@ -44,6 +34,7 @@ YOLOv5 🚀 is a family of object detection architectures and models pretrained 
   <a href="https://www.instagram.com/ultralytics/" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/raw/master/social/logo-social-instagram.png" width="2%" alt="" /></a>
 </div>
+-->
 
 <!--
 <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
@@ -160,7 +151,10 @@ python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 12
 
 </details>
 
+<!--
+
 ## <div align="center">Environments</div>
+
 
 Get started in seconds with our verified environments. Click each icon below for details.
 
@@ -196,6 +190,8 @@ Get started in seconds with our verified environments. Click each icon below for
   <a href="https://wandb.ai/site?utm_campaign=repo_yolo_readme">
     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-wb.png" width="10%" /></a>
 </div>
+
+
 
 |Deci ⭐ NEW|ClearML ⭐ NEW|Roboflow|Weights & Biases
 |:-:|:-:|:-:|:-:|
@@ -287,6 +283,8 @@ We trained YOLOv5-cls classification models on ImageNet for 90 epochs using a 4x
 
 <details>
   <summary>Classification Usage Examples (click to expand)</summary>
+-->
+
 
 ### Train
 YOLOv5 classification training supports auto-download of MNIST, Fashion-MNIST, CIFAR10, CIFAR100, Imagenette, Imagewoof, and ImageNet datasets with the `--data` argument. To start training on MNIST for example use `--data mnist`.
@@ -327,7 +325,8 @@ python export.py --weights yolov5s-cls.pt resnet50.pt efficientnet_b0.pt --inclu
 
 We love your input! We want to make contributing to YOLOv5 as easy and transparent as possible. Please see our [Contributing Guide](CONTRIBUTING.md) to get started, and fill out the [YOLOv5 Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey) to send us feedback on your experiences. Thank you to all our contributors!
 
-<!-- SVG image from https://opencollective.com/ultralytics/contributors.svg?width=990 -->
+<!-- 
+SVG image from https://opencollective.com/ultralytics/contributors.svg?width=990 
 <a href="https://github.com/ultralytics/yolov5/graphs/contributors"><img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/image-contributors-1280.png" /></a>
 
 ## <div align="center">Contact</div>
@@ -336,6 +335,8 @@ For YOLOv5 bugs and feature requests please visit [GitHub Issues](https://github
 professional support requests please visit [https://ultralytics.com/contact](https://ultralytics.com/contact).
 
 <br>
+
+
 <div align="center">
   <a href="https://github.com/ultralytics" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/raw/master/social/logo-social-github.png" width="3%" alt="" /></a>
@@ -358,6 +359,7 @@ professional support requests please visit [https://ultralytics.com/contact](htt
   <a href="https://www.instagram.com/ultralytics/" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/raw/master/social/logo-social-instagram.png" width="3%" alt="" /></a>
 </div>
+-->
 
 [assets]: https://github.com/ultralytics/yolov5/releases
 [tta]: https://github.com/ultralytics/yolov5/issues/303
