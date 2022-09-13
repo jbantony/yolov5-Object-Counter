@@ -1,20 +1,24 @@
 # Object Counter Based on YOLO v5
 
-This project is modified from the official YOLOv5 by <a href="https://ultralytics.com">Ultralytics</a> to perform an Object Counting Task from the detected objects in the frame.
+This project is modified from the official YOLOv5 by <a href="https://ultralytics.com">Ultralytics</a> to perform realtime Object Counting Task from the detected objects in the frame.
 
-## Notes for Running this detection script from detect.py using webcam
+This modifies detect.py script will print the count of all the detected objects (using --print_all flag) as well as individual object (using --print_class "person") in the detected image/frame.
+
+## Notes for Running this detection script from detect.py
 
 ##### Use the flags
 
---nosave            : Not to save the recorded video while feeding from Webcam
---line-thickness    : Keep clean bounding boxes use 1
---source 0          : To read from WEbCam
+- --nosave            : Not to save the recorded video while feeding from Webcam
+
+- --line-thickness    : Keep clean bounding boxes use 1
+
+- --source 0          : To read from WEbCam
 
 ##### Optional for Good results
---imgsz             : To get more accurate results, use imgsz 800
+- --imgsz             : To get more accurate results, use imgsz 800
 
---print_class       : To print the number of detected objects in the frame for the given class
---print_all         : To print all the detected classes in the image, default false
+- --print_class       : To print the number of detected objects in the frame for the given class
+- --print_all         : To print all the detected classes in the image, default false
 
 
 Example Usage
