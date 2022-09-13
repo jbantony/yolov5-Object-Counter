@@ -1,5 +1,10 @@
+# Object Counter Based on YOLO v5
+
+This project is modified from the official YOLOv5 by <a href="https://ultralytics.com">Ultralytics</a> to perform an Object Counting Task from the detected objects in the frame.
+
+
 <p>
-## Object Counter Based on YOLO v5
+
 
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
