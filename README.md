@@ -5,7 +5,7 @@ This project is modified from the official YOLOv5 by <a href="https://ultralytic
 
 #### Keeping the necessary parts from the original readme.
 <details open>
-<summary>Docu</summary>
+<summary>Original Readme Highlights</summary>
 
 <p>
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
