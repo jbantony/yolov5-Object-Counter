@@ -3,9 +3,8 @@
 This project is modified from the official YOLOv5 by <a href="https://ultralytics.com">Ultralytics</a> to perform an Object Counting Task from the detected objects in the frame.
 
 
+#### Keeping the necessary parts from the original readme.
 <p>
-
-
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
 </p>
@@ -34,30 +33,6 @@ pip install -r requirements.txt  # install
 
 </details>
 
-<details open>
-<summary>Inference</summary>
-
-YOLOv5 [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36) inference. [Models](https://github.com/ultralytics/yolov5/tree/master/models) download automatically from the latest
-YOLOv5 [release](https://github.com/ultralytics/yolov5/releases).
-
-```python
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5n - yolov5x6, custom
-
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-```
-
-</details>
-
 <details>
 <summary>Inference with detect.py</summary>
 
@@ -75,9 +50,11 @@ python detect.py --source 0  # webcam
 ```
 
 </details>
-
+<!--
 <details>
 <summary>Training</summary>
+
+<!-- 
 
 The commands below reproduce YOLOv5 [COCO](https://github.com/ultralytics/yolov5/blob/master/data/scripts/get_coco.sh)
 results. [Models](https://github.com/ultralytics/yolov5/tree/master/models)
@@ -98,6 +75,7 @@ python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 12
 <img width="800" src="https://user-images.githubusercontent.com/26833433/90222759-949d8800-ddc1-11ea-9fa1-1c97eed2b963.png">
 
 </details>
+-->
 <!--
 <details open>
 <summary>Tutorials</summary>
