@@ -2,6 +2,38 @@
 
 This project is modified from the official YOLOv5 by <a href="https://ultralytics.com">Ultralytics</a> to perform an Object Counting Task from the detected objects in the frame.
 
+## Notes for Running this detection script from detect.py using webcam
+
+##### Use the flags
+
+--nosave            : Not to save the recorded video while feeding from Webcam
+--line-thickness    : Keep clean bounding boxes use 1
+--source 0          : To read from WEbCam
+
+##### Optional for Good results
+--imgsz             : To get more accurate results, use imgsz 800
+
+--print_class       : To print the number of detected objects in the frame for the given class
+--print_all         : To print all the detected classes in the image, default false
+
+
+Example Usage
+
+```bash
+python detect.py --source 0 --imgsz 800 --line-thickness 1 --print_class person --nosave
+```
+
+or
+```bash
+
+python detect.py --source 0 --line-thickness 1 --print_all --nosave
+
+```
+
+###### Quit the running
+
+Quit using STRG + C while running.
+
 
 #### Keeping the necessary parts from the original readme.
 <details open>
