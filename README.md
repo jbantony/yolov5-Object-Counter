@@ -35,22 +35,26 @@ python detect.py --source 0 --line-thickness 1 --print_all --nosave
 
 ```
 
-###### Quit the running
+#### Quit the running
 
 Quit using STRG + C while running.
 
 
-#### Keeping the necessary parts from the original readme.
+
+
+### Keeping the necessary parts from the original readme.
+
+
 <details open>
-<summary>Original Readme Highlights</summary>
+<summary> Highlights from Original Readme</summary>
 
-<p>
-YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
- open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
-</p>
+  <p>
+  YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
+  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
+  </p>
 
 
-</div>
+
 
 ## <div align="center">Documentation</div>
 
@@ -311,6 +315,8 @@ Export a group of trained YOLOv5s-cls, ResNet and EfficientNet models to ONNX an
 ```bash
 python export.py --weights yolov5s-cls.pt resnet50.pt efficientnet_b0.pt --include onnx engine --img 224
 ```
+
+
 </details>
 
 <!-- 
