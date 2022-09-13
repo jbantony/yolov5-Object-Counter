@@ -40,6 +40,34 @@ python detect.py --source 0 --line-thickness 1 --print_all --nosave
 Quit using STRG + C while running.
 
 
+## Docker Implementation
+
+#### Build the image
+
+```bash
+docker build -t yolov5 .
+```
+This will build a docker image with a pre-lauched jupyter notebook at port 8888
+
+#### Run docker
+
+```bash
+docker run --rm -it -p 90:8888 -v ${PWD}:/yolo/ --name yolo5 -d yolov5
+```
+
+#### Access docker 
+
+```bash
+docker exec -ti yolo5 bash
+```
+
+#### Test the docker with Jupyter Notebook
+
+```bash
+jupyter notebook --allow-root --notebook-dir=/yolo/ --ip=0.0.0.0 --port=8888 --no-browser
+```
+This will run jupyter notebook in root mode with the given directory as default in the docker image. The notebook can be accessed at http://localhost
+Enter the password `root` to access the notebook.
 
 
 ### Keeping the necessary parts from the original readme.
