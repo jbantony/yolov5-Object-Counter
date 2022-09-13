@@ -4,6 +4,7 @@ This project is modified from the official YOLOv5 by <a href="https://ultralytic
 
 
 #### Keeping the necessary parts from the original readme.
+<details open>
 <p>
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
@@ -237,7 +238,7 @@ We trained YOLOv5-cls classification models on ImageNet for 90 epochs using a 4x
   <summary>Classification Usage Examples (click to expand)</summary>
 -->
 
-<details open>
+
 
 ### Train
 YOLOv5 classification training supports auto-download of MNIST, Fashion-MNIST, CIFAR10, CIFAR100, Imagenette, Imagewoof, and ImageNet datasets with the `--data` argument. To start training on MNIST for example use `--data mnist`.
