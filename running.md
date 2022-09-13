@@ -10,7 +10,7 @@
 --imgsz             : To get more accurate results, use imgsz 800
 
 --print_class       : To print the number of detected objects in the frame for the given class
---print_all         : To print all the detected classes in the image
+--print_all         : To print all the detected classes in the image, default false
 
 
 Example Usage
@@ -19,7 +19,7 @@ python detect.py --source 0 --imgsz 800 --line-thickness 1 --print_class person 
 
 or
 
-python detect.py --source 0 --line-thickness 1 --print_all 1 --nosave
+python detect.py --source 0 --line-thickness 1 --print_all --nosave
 
 ###### Quit the running
 
