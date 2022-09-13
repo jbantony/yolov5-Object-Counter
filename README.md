@@ -12,16 +12,17 @@ This modifies detect.py script will print the count of all the detected objects 
 
 - --line-thickness    : Keep clean bounding boxes use 1
 
-- --source 0          : To read from WEbCam
+- --source 0          : To read from WebCam
+
+- --print_class       : To print the number of detected objects in the frame for the given class eg: --print_class "cell phone"
+
+- --print_all         : To print all the detected classes in the image
 
 ##### Optional for Good results
 - --imgsz             : To get more accurate results, use imgsz 800
 
-- --print_class       : To print the number of detected objects in the frame for the given class
-- --print_all         : To print all the detected classes in the image, default false
 
-
-Example Usage
+#### Example Usage
 
 ```bash
 python detect.py --source 0 --imgsz 800 --line-thickness 1 --print_class person --nosave
