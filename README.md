@@ -237,6 +237,7 @@ We trained YOLOv5-cls classification models on ImageNet for 90 epochs using a 4x
   <summary>Classification Usage Examples (click to expand)</summary>
 -->
 
+<details open>
 
 ### Train
 YOLOv5 classification training supports auto-download of MNIST, Fashion-MNIST, CIFAR10, CIFAR100, Imagenette, Imagewoof, and ImageNet datasets with the `--data` argument. To start training on MNIST for example use `--data mnist`.
