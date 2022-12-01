@@ -70,7 +70,7 @@ This will run jupyter notebook in root mode with the given directory as default 
 Enter the password `root` to access the notebook.
 
 
-### Keeping the necessary parts from the original readme.
+### Keeping the necessary parts from the original YOLOv5 readme.
 
 
 <details open>
